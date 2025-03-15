@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-Minute Trading Strategy</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; background-image: url('stock-market-background.jpg'); background-size: cover; }
+        header { background: #222; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; }
+        .slide { 
+            padding: 30px; 
+            max-width: 900px; 
+            margin: 40px auto; 
+            border-radius: 10px; 
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1); 
+            color: white; 
+            font-size: 18px;
+            line-height: 1.6;
+            position: relative;
+        }
+        .slide:nth-child(odd) { background: #1E3A8A; }
+        .slide:nth-child(even) { background: #047857; }
+        .slide h2 {
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+        }
+        .slide h2::before {
+            content: '\25CF';
+            font-size: 28px;
+            margin-right: 10px;
+            color: #FFD700;
+        }
+        .navigation { 
+            text-align: center; 
+            padding: 15px; 
+            font-size: 18px; 
+        }
+        .navigation a {
+            color: #E63946;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .navigation a:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 20px; background: #222; color: white; margin-top: 30px; }
+        .contact-form { display: flex; flex-direction: column; }
+        .contact-form input, .contact-form textarea { margin: 10px 0; padding: 12px; width: 100%; border: none; border-radius: 5px; }
+        .contact-form button { background: #E63946; color: white; border: none; padding: 12px; cursor: pointer; border-radius: 5px; font-size: 16px; }
+        .contact-form button:hover { background: #D62839; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>1-Minute Trading Strategy</h1>
+    </header>
+    
+    <div class="navigation">
+        <p>Please read all the slides thoroughly, especially the <a href="#slide9">9th</a> and <a href="#slide10">10th</a> ones.</p>
+    </div>
+    
+    <section class="slide" id="slide1">
+        <h2>Introduction</h2>
+        <p>I am Anush, and I have been trading for the past 3 years. After extensive research and comparison with other trading strategies (such as Supply and Demand), I developed this **Math-Progressive Trading Strategy**. I have just passed out of 12th grade and am now looking to scale my strategy with investor funding.</p>
+    </section>
+    
+    <section class="slide" id="slide2">
+        <h2>Objective</h2>
+        <p>I wish to start my own trading firm, leveraging this **Math-Progressive Trading Strategy** to generate consistent profits. My goal is to scale this strategy with investor funding and establish a successful, data-driven trading operation.</p>
+    </section>
+    
+    <section class="slide" id="slide3">
+        <h2>The Strategy Overview</h2>
+        <p>Fixed Time Trading (FTT) is a form of trading where traders predict whether an asset’s price will go up or down within a fixed period (e.g., 1 minute). This strategy uses **Technical Analysis** with RSI and Stochastic Oscillator indicators for high-probability trade signals.</p>
+        <p>Have a look at this video for a better understanding: <a href="https://youtu.be/Xjkk_fVLfgU" target="_blank">https://youtu.be/Xjkk_fVLfgU</a></p>
+    </section>
+    
+    <section class="slide" id="slide4">
+        <h2>How the Strategy Works</h2>
+        <p>- **1-Minute Timeframe**: Trades are placed on short-term candles for higher accuracy.<br>
+           - **Trade Confirmation**: Multiple indicators must align to confirm a buy or sell signal.<br>
+           - **Execution**: Only enter trades when the majority of indicators provide the same direction, increasing the probability of success.</p>
+    </section>
+    
+    <section class="slide" id="slide11">
+        <h2>To Continue Further</h2>
+        <p>If you're interested in funding, contact me:</p>
+        <p>- **Discord**: its_sinha<br>
+           - **Instagram**: 6lone_ranger69<br>
+           - **Email**: ttl02079.anush@gmail.com</p>
+        <p>OR</p>
+        <p>If this was sent to you by my email, just reply to it.</p>
+    </section>
+    
+    <footer>
+        <p>Contact: <a href="mailto:ttl02079.anush@gmail.com" style="color: white;">ttl02079.anush@gmail.com</a></p>
+    </footer>
+</body>
+</html>
